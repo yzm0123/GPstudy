@@ -9,8 +9,5 @@
         <module name="gupaoedu-vip-pattern-singleton" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="gupaoeduvippatterfactory" target="6" />
-    </bytecodeTargetLevel>
   </component>
 </project>

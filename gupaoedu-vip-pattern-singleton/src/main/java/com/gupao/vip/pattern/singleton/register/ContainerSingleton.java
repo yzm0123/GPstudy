@@ -9,7 +9,7 @@ public class ContainerSingleton {
 
     private ContainerSingleton(){}
 
-    private static ConcurrentHashMap<String,Object> ioc = new ConcurrentHashMap<>();
+    private static ConcurrentHashMap<String,Object> ioc = new ConcurrentHashMap<String,Object>();
 
     public static Object getBean(String className){
 
